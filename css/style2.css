@@ -1,0 +1,404 @@
+@import url(../fonts/style.css); 
+@import url(../var/variabless.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--secondary-color);
+}
+.wrapper{
+    overflow: hidden;
+}
+
+/* header */
+.header{
+    margin: 0 auto;
+    background: var(--base-color);
+    max-width: 96.25rem;
+    height: 6.25rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-menu{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu-logo{
+    width: 10.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-header-text{
+    font-size: 1.25rem;
+    font-family: 'Literata-Regular';
+}
+.header-nav{
+    max-width: 58.2rem;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    font-family: 'Inter-Regular';
+}
+
+
+/* О студии */
+.about-the-studio{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 180px;
+}
+.about-the-studio-center{
+    display: flex;
+    flex-direction: column;
+    gap: 4.4rem;
+}
+.about-the-studio-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31.2rem;
+    justify-content: space-between;
+}
+.line{
+    background: #000;
+    width: 6.875rem;
+    height: 1px;
+}
+.about-the-studio-header h2{
+    font-size: 2.75rem;
+    font-family: 'Lobster-Regular';
+}
+
+
+.about-the-studio-text{
+    margin: 0 auto;
+    max-width: 96.25rem;
+    display: flex;
+    align-items: center;
+    gap: 9.25rem;
+}
+.studio{
+    width: 40rem;
+    height: 30.25rem;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.about-the-studio-text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24.2rem;
+    width: 47.6rem;
+}
+
+.about-the-studio-text-center p{
+    width: 47.5625rem;
+    font-size: 1.125rem;
+    font-family: 'Inter-Regular';
+    line-height: 30px;
+}
+
+.about-the-studio-text-palka{
+    margin: 0 auto;
+    width: 96.25rem;
+    display: flex;
+}
+.about-the-studio-text-palka p{
+    border-left:1px solid var(--text-color) ;
+    font-size: 1.125rem;
+    font-family: 'Inter-Regular';
+    line-height: 30px;
+    width: 31.25rem;
+    padding-left: 10px;
+}
+
+/* Часто задаваемые вопросы */
+.frequently-asked-questions{
+margin: 0 auto;
+margin-top: 180px;
+}
+.frequently-asked-questions-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55.7rem;
+    justify-content: space-between;
+}
+.frequently-asked-questions-header h2{
+    font-size: 2.75rem;
+    font-family: 'Lobster-Regular';
+}
+.questions-form{ 
+    display: flex; 
+    justify-content: space-between; 
+    width: 96.25rem; 
+    margin: 0 auto;
+} 
+
+.questions{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2.5rem; 
+} 
+ 
+.question { 
+    font-size: 14px; 
+    font-family: 'Inter-Regular'; 
+    background: var(--fourth-color); 
+    width: 39.4rem; 
+    height:4.4rem; 
+    border-radius: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.question-center-auto{ 
+    width: 80%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+/* Форма */ 
+.form{ 
+    width: 39.4rem; 
+    background: var(--base-color); 
+    height: 31.875rem; 
+    border-radius: 20px; 
+} 
+.the-bell{ 
+    display: flex; 
+    justify-content: center; 
+} 
+.the-bell h3{ 
+    font-size: 2rem; 
+    font-family: 'Lobster-Regular'; 
+} 
+
+.forma{ 
+    width: 23.125rem; 
+    gap:1.9rem ; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto; 
+} 
+ 
+.form1{ 
+    display: flex; 
+    align-items: center; 
+} 
+.form1 input{ 
+    border: 1px solid var(--fourth-color); 
+    background: rgba(255, 255, 255, 0.4); 
+    width: 23.125rem; 
+    height: 4.375rem; 
+    border-radius: 20px; 
+    outline: 0; 
+    display: flex; 
+    padding-left: 30px; 
+} 
+.form1::placeholder{ 
+    color: #000; 
+    font-size: 14px; 
+    font-family: 'Inter-Regular'; 
+} 
+.form-text{ 
+    background:var(--fourth-color); 
+    border-radius: 5px; 
+    border: 1px solid var(--third-color); 
+    width: 1.25rem; 
+    height: 1.25rem; 
+} 
+.form-text-block{ 
+    font-size: 0.875rem; 
+    font-family: 'Inter-Regular'; 
+    width: 30rem; 
+    line-height: 20px; 
+} 
+.form-text-knopka{ 
+    width: 31.9rem; 
+    display: flex; 
+    gap: 10px; 
+    margin: 0 auto;
+} 
+.form3{ 
+ 
+    background: var(--fourth-color); 
+    width: 23.125rem; 
+    height: 4.375rem; 
+    border-radius: 20px;
+    margin: 0 auto;
+} 
+.form3 input{ 
+    background:var(--fourth-color); 
+    width: 23.125rem; 
+    height: 4.375rem; 
+    border-radius: 20px; 
+    outline: 0; 
+    border: 1px ; 
+    font-size: 1.375rem; 
+    font-family: 'Lobster-Regular'; 
+}
+
+/* footer */
+.footer{
+    margin-top: 11.25rem;
+    max-width: 120rem;
+    background: #D7AE9C;
+    height: 23.75rem;
+    border-radius: 20px;
+    
+}
+
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+ 
+}
+
+.footer-block-two{
+    display: flex;
+    justify-content: space-between;
+}
+/* Контакты */
+.kontackt-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.kontackt{
+    max-width: 23.2rem;
+    width: 23.2rem;
+}
+.kontackt-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.kontackt-header h3{
+    font-size: 1.125rem;
+    font-family: 'Lobster-Regular';
+}
+.iconki{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.iconka-kontackt{
+    display: flex;
+    align-items: center;
+}
+.number{
+    padding-left: 10px;
+    font-size: 0.875rem;
+    font-family: 'Inter-Regular';
+    text-decoration: none;
+    color: #000;
+}
+.iconka-email{
+    display: flex;
+    align-items: center;
+}
+.iconka-adress{
+    display: flex;
+    align-items: center;
+}
+
+/* Студия Сияние */
+.link-footer{
+    font-size: 0.875rem;
+    font-family: 'Inter-Regular';
+    text-decoration: none;
+    color: #000;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+}
+
+/* Реклама */
+.advertisement{
+    margin-top: 11.25rem;
+    width: 90rem;
+}
+.advertisement-block{
+    width: 80rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.advertisement-block-one{
+    background-image: url(../img/phone.png);
+    width: 35.25rem;
+    height: 62.7rem;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+.advertisement-one-block-img{
+    width: 80rem;
+    display: flex;
+    padding-top: 22.9rem;
+    margin-left: -15rem;
+}
+.eye{
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.eye:first-child{
+    padding-left: 0px;
+}
+
+.advertisement-two-block{
+    max-width: 32.25rem;
+    width: 32.25rem;
+}
+.advertisement-two-block p{
+    font-size: 1.375rem;
+    font-family: 'Inter-Regular';
+    width: 32.25rem;;
+}
+.advertisement-two-block a{
+    font-size: 1.875rem;
+    font-family: 'Lobster-Regular';
+    color: #EA6A6F;
+    padding-left: 12rem;
+    padding-top: 25px;
+    text-decoration: none;
+}
+.advertisement-two-block-text{
+    display: flex;
+    flex-direction: column;
+}
+.advertisement-two-block-text p{
+    font-size: 1.125rem;
+    font-family: 'Inter-Regular';
+}
+.advertisement-two-block-text ul{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.advertisement-two-block-text ul li{
+    padding-top: 10px;
+    font-size: 1.125rem;
+    font-family: 'Inter-Regular';
+}

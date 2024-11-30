@@ -1,0 +1,645 @@
+@import url(../fonts/style.css); 
+@import url(../var/variabless.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--secondary-color);
+}
+.wrapper{
+    overflow: hidden;
+}
+
+/* header */
+.header{
+    margin: 0 auto;
+    background: var(--base-color);
+    max-width: 96rem;
+    height: 6rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-menu{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu-logo{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-header-text{
+    font-size: 20px;
+    font-family: 'Literata-Regular';
+}
+.header-nav{
+    max-width: 58rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+}
+
+/* О студии */
+.about-the-studio{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 180px;
+}
+.about-the-studio-center{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.about-the-studio-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31rem;
+    justify-content: space-between;
+}
+.line{
+    background: #000;
+    width: 7rem;
+    height: 1px;
+}
+.about-the-studio-header h2{
+    font-size: 48px;
+    font-family: 'Lobster-Regular';
+}
+
+.about-the-studio-text{
+    margin: 0 auto;
+    max-width: 96rem;
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+}
+.studio{
+    width: 40rem;
+    height: 30rem;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.about-the-studio-text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24rem;
+    width: 47rem;
+}
+
+.about-the-studio-text-center p{
+    width: 47rem;
+    font-size: 20px;
+    font-family: 'Inter-Regular';
+    line-height: 30px;
+}
+
+.about-the-studio-text-palka{
+    margin: 0 auto;
+    width: 96rem;
+    display: flex;
+    justify-content: space-between;
+}
+.about-the-studio-text-palka p{
+    border-left:1px solid var(--text-color) ;
+    font-size: 20px;
+    font-family: 'Inter-Regular';
+    line-height: 30px;
+    width: 31rem;
+    padding-left: 10px;
+}
+
+/*Акции*/
+.stocks{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.stocks-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31rem;
+    justify-content: space-between;
+}
+.stocks-header h2{
+    font-size: 48px;
+    font-family: 'Lobster-Regular';
+}
+
+.stocks-block-center{
+    margin: 0 auto;
+    width: 96rem;
+    border: 1px solid #000;
+    height: 28rem;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+
+}
+.stocks-block-ledi-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.stocks-ledi{
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border: 1px solid #000;
+}
+.stocks-block-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.stocks-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.stocks-text h3{
+    font-size: 32px;
+    font-family: 'Lobster-Regular';
+}
+.stocks-text p{
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    line-height: 40px;
+}
+.stocks-text p span{
+    display: flex;
+    justify-content: center;
+}
+/*Кнопка*/
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    position: absolute;
+    width: 15rem;
+    background: #D7AE9C;
+    border-radius: 50%;
+    border: none;
+    height: 4rem;
+}
+.button1{
+    position: absolute;
+    width: 15rem;
+    background: none;
+    border-radius: 50%;
+    border:1px solid #D7AE9C;
+    height: 4rem;
+}
+
+
+.advertisement{
+    margin-top: 180px;
+    width: 90rem;
+}
+.advertisement-block{
+    width: 80rem;
+    display: flex;
+    margin: 0 auto;
+    gap: 7rem;
+}
+.advertisement-block-one{
+    background-image: url(../img/phone.png);
+    width: 35rem;
+    height: 62rem;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+.advertisement-one-block-img{
+    width: 80rem;
+    display: flex;
+    padding-top: 22rem;
+    margin-left: -15rem;
+}
+.eye{
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.eye:first-child{
+    padding-left: 0px;
+}
+
+.advertisement-two-block{
+    width: 33rem;
+    height: 17rem;
+}
+.advertisement-two-block p{
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    width: 33rem;
+}
+.advertisement-two-block a{
+    font-size: 32px;
+    font-family: 'Lobster-Regular';
+    color: #EA6A6F;
+    text-decoration: none;
+}
+.advertisement-two-block-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.advertisement-two-block-spisok{
+    display: flex;
+    flex-direction: column;
+}
+.spisok{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.advertisement-two-block-spisok p{
+    font-size: 20px;
+    font-family: 'Inter-Regular';
+}
+.advertisement-two-block-spisok ul{
+    padding-left: 20px;
+}
+.advertisement-two-block-spisok ul li{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Inter-Regular';
+}
+
+/*Часто задаваемые вопросы*/
+.frequently-asked-questions{
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.frequently-asked-questions-center{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.frequently-asked-questions-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55rem;
+    justify-content: space-between;
+}
+.frequently-asked-questions-header h2{
+font-size: 48px;
+font-family: 'Lobster-Regular';
+}
+.questions-form{ 
+    display: flex; 
+    gap: 3rem;
+    justify-content: space-between; 
+    width: 96rem; 
+    margin: 0 auto;
+} 
+.question-center-one{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    width: 39rem;
+} 
+
+.question { 
+    background: var(--fourth-color); 
+    width: 39rem; 
+    height:4rem; 
+    border-radius: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.question-center-auto{ 
+    width: 90%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.question-center-auto p{
+    font-size: 16px; 
+    font-family: 'Inter-Regular'; 
+}
+
+.question-center-two{
+    width: 39rem;
+    background: var(--base-color); 
+    height: 31.875rem; 
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.the-bell{ 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 30px;
+} 
+.the-bell h3{ 
+    font-size: 32px; 
+    font-family: 'Lobster-Regular'; 
+} 
+.forma{ 
+    width: 23rem; 
+    margin: 0 auto; 
+} 
+.form{
+    gap:2rem ; 
+    display: flex; 
+    flex-direction: column; 
+}
+.form1{ 
+    display: flex; 
+    align-items: center; 
+} 
+.form1 input{ 
+    border: 1px solid var(--fourth-color); 
+    background: rgba(255, 255, 255, 0.4); 
+    width: 23rem; 
+    height: 4rem; 
+    border-radius: 20px; 
+    outline: 0; 
+    display: flex; 
+    padding-left: 30px; 
+} 
+.form1::placeholder{ 
+    color: #000; 
+    font-size: 14px; 
+    font-family: 'Inter-Regular'; 
+} 
+.form-text-knopka{ 
+    width: 32rem; 
+    display: flex; 
+    margin: 0 auto;
+} 
+.form-text{ 
+    background:var(--fourth-color); 
+    border-radius: 5px; 
+    border: 1px solid var(--third-color); 
+    width: 1rem; 
+    height: 1rem; 
+} 
+.form-text-block{ 
+    font-size: 16px; 
+    font-family: 'Inter-Regular'; 
+    width: 32rem; 
+    line-height: 20px; 
+    padding-left: 10px;
+} 
+
+.form3{ 
+ 
+    background: var(--fourth-color); 
+    width: 23rem; 
+    height: 4rem; 
+    border-radius: 20px;
+    margin: 0 auto;
+} 
+.form3 input{ 
+    background:var(--fourth-color); 
+    width: 23rem; 
+    height: 4rem; 
+    border-radius: 20px; 
+    outline: 0; 
+    border: 1px ; 
+    font-size: 24px; 
+    font-family: 'Lobster-Regular'; 
+}
+
+/*Прайс*/
+.price-list{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+.price-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31rem;
+    justify-content: space-between;
+}
+.price-header h2{
+    font-size: 48px;
+    font-family: 'Lobster-Regular';
+}
+.price-block-center{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 96rem;
+}
+.knopka-circle-one{
+    display: flex;
+    align-items: center;
+}
+.knopka-circle{
+    background: none;
+    border:1px solid #000;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.knopka-circle p{
+    display: flex;
+    align-items: center;
+}
+
+.backround{
+    background: none;
+    border: 1px solid #000;
+    width: 25rem;
+    height: 36rem;
+    border-radius: 20px;
+}
+.backround-two{
+    display: flex;
+    width: 25rem;
+    position: absolute;
+    justify-content: center;
+
+}
+.backround-one-block{
+    position: relative;
+    background: #D7AE9C;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px;
+    top: -80px;
+}
+.backround-two-block{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.img-one{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px;
+}
+.manicure-circle-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13rem;
+    gap: 2rem;
+}
+.manicure-circle{
+    background: none;
+    border: 1px solid #000;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 20px;
+}
+.manicure-circle-text{
+    display: flex;
+    justify-content: center;
+}
+.manicure-circle p{
+    font-size: 24px;
+    font-family: 'Lobster-Regular';
+}
+.price-text{
+    padding-left: 15px;
+}
+.price-text ul li{
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+    padding-top: 20px;
+}
+.price-text ul li:first-child{
+    padding-top: 0;
+}
+
+
+/* Мастера */
+.mastera{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.mastera-header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31rem;
+    justify-content: space-between;
+}
+.mastera-header h2{
+    font-size: 48px;
+    font-family: 'Lobster-Regular';
+}
+.mastera-center-block{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 87rem;
+}
+.mastera-backround{
+    width: 85rem;
+    height: 33rem;
+}
+
+.mastera-backround-one{
+    position: absolute;
+    width: 49rem;
+    height: 31rem;
+    background: none;
+    border: 1px solid #000;
+}
+.mastera-backround-two{
+    width: 43rem;
+    height: 25rem;
+    background: none;
+    border: 1px solid #000;
+    margin-left: 42rem;
+    margin-top: 2rem;
+}
+.master{
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid #000;
+}
+.master-one{
+    position: relative;
+    top: 70px;
+    left: -40px;
+}
+.master-two{
+    position: relative;
+    top: -260px;
+    left: 430px;
+}
+.master-free{
+    position: relative;
+    left: 240px;
+    top: 33px;
+}
+.master-text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.master-text{
+    margin: 0 auto;
+    width: 73rem;
+    display: flex;
+    justify-content: space-between;
+}
+.master-name{
+    font-size: 24px;
+    font-family: 'Lobster-Regular';
+    border-bottom: 1px solid #000;
+}
+.master-kvalifiks{
+    font-size: 20px;
+    font-family: 'Inter-Regular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.master-kvalifiks p{
+    padding-top: 15px;
+}
+.master-kvalifiks p:first-child{
+    padding-top: 0px;
+}
+.master-two-text{
+    margin-top: 40px;
+}
