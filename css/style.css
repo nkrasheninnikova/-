@@ -643,3 +643,82 @@ font-family: 'Lobster-Regular';
 .master-two-text{
     margin-top: 40px;
 }
+
+/*footer*/
+.footer{
+    width: 1920px;
+    margin-top: 180px;
+    background: #D7AE9C;
+    height: 380px;
+    border-radius: 20px;
+}
+
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1530px;
+    margin: 0 auto;
+    
+}
+.footer-block-two{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+}
+.footer-kontakt{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.kontackt-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    justify-content: space-between;
+}
+.kontackt-header h3{
+    font-size: 20px;
+    font-family: 'Lobster-Regular';
+}
+.iconki{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.iconka-kontackt{
+    display: flex;
+    align-items: center;
+}
+.number{
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+    text-decoration: none;
+    color: #000;
+}
+.iconka-email{
+    display: flex;
+    align-items: center;
+}
+.iconka-adress{
+    display: flex;
+    align-items: center;
+}
+/* Студия Сияние */
+.link-footer{
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+    text-decoration: none;
+    color: #000;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
